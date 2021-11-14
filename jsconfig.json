@@ -1,0 +1,25 @@
+{
+    "typeAcquisition": {
+        "exclude": [
+            "20211114-webpack-usage"
+        ]
+    },
+    "compilerOptions": {
+        "experimentalDecorators": true
+    },
+    "include": [
+        "src/**/*"
+    ],
+    "exclude": [
+        "node_modules",
+        "dist"
+    ],
+    "paths": {
+        "@": [
+            "src"
+        ],
+        "@src": [
+            "src"
+        ]
+    },
+}
